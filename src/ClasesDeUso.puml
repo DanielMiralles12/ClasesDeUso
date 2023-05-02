@@ -1,3 +1,4 @@
 @startuml
-:Actor:
+
+"Mostrar Menu" as (Use)
 @enduml
