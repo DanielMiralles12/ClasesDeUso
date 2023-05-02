@@ -1,7 +1,9 @@
 @startuml
 left to right direction
-"Acceder" as (cliente)
-"Registrarse" as (resgistro)
+"Pagar" as (pagar)
+"Pagar con tarjeta" as (tarjeta)
+"Pagar en efectivo" as (efectivo)
 
-(resgistro) <-- (cliente) : <<extend>>
+(tarjeta) --> (pagar)
+(efectivo) --> (pagar)
 @enduml
