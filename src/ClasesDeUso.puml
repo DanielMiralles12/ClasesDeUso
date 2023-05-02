@@ -1,14 +1,14 @@
 @startuml
 left to right direction
 :Cliente:
+:Administrador:
 
-Cliente --> (Identificarse)
-Cliente --> (Pagar)
-Cliente --> (Eleir mensajero)
-Cliente --> (Confirmar)
+Cliente --> (Iniciar sesion)
+Cliente --> (Recuperar contraseña)
+Cliente --> (Modificar contraseña)
+Cliente --> (Cerrar sesion)
 
-(Identificarse) .. (Registrarse) : <<Extend>>
-
-(Pagar con transferencia) .. (Pagar)
-(Pagar con tarjeta) .. (Pagar)
+Administrador --> Cliente
+Administrador --> (Registrar Usuario)
+Administrador --> (Instalar programa)
 @enduml
