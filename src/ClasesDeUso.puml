@@ -1,16 +1,15 @@
 @startuml
 left to right direction
 :Cliente:
-:Camarero:
 
-rectangle Restaurante{
-"Mostrar Menu" as (Mostrar)
-"Pedir comida" as (Pedir)
-}
+"Confirmar pedido" as (confirmar)
+"Cancelar pedido" as (cancelar)
 
-Cliente --> (Mostrar)
-Cliente --> (Pedir)
-(Mostrar) <-- Camarero
-(Entrega) <-- Camarero
-"Entregar Comida" as (Entrega)
+Cliente --> (confirmar)
+Cliente --> (cancelar)
+
+"Devolver cambio" as (devolver)
+
+(confirmar) .. (devolver) : <<include>>
+(cancelar) .. (devolver) : <<include>>
 @enduml

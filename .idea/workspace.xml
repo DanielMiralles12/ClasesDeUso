@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d064c6-c451-46cd-9047-61656b9571f4" name="Changes" comment="Primer asociación">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="08d064c6-c451-46cd-9047-61656b9571f4" name="Changes" comment="Creacion primer sistema (Relacion cliente restaurante)">
       <change beforePath="$PROJECT_DIR$/src/ClasesDeUso.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesDeUso.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683033395815</updated>
-      <workItem from="1683033397994" duration="1606000" />
+      <workItem from="1683033397994" duration="1911000" />
     </task>
     <task id="LOCAL-00001" summary="Creando proyecto UML">
       <created>1683033994987</created>
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683034418499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creacion primer sistema (Relacion cliente restaurante)">
+      <created>1683035079728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683035079728</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +134,7 @@
     <MESSAGE value="Creacion primer actor" />
     <MESSAGE value="Creacion primer caso de uso" />
     <MESSAGE value="Primer asociación" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer asociación" />
+    <MESSAGE value="Creacion primer sistema (Relacion cliente restaurante)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion primer sistema (Relacion cliente restaurante)" />
   </component>
 </project>
