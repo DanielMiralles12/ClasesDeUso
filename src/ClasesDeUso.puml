@@ -1,15 +1,7 @@
 @startuml
 left to right direction
-:Cliente:
+"Acceder" as (cliente)
+"Registrarse" as (resgistro)
 
-"Confirmar pedido" as (confirmar)
-"Cancelar pedido" as (cancelar)
-
-Cliente --> (confirmar)
-Cliente --> (cancelar)
-
-"Devolver cambio" as (devolver)
-
-(confirmar) .. (devolver) : <<include>>
-(cancelar) .. (devolver) : <<include>>
+(resgistro) <-- (cliente) : <<extend>>
 @enduml
