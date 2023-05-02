@@ -1,4 +1,16 @@
 @startuml
-:Cliente: --> (Use)
-"Mostrar Menu" as (Use)
+left to right direction
+:Cliente:
+:Camarero:
+
+rectangle Restaurante{
+"Mostrar Menu" as (Mostrar)
+"Pedir comida" as (Pedir)
+}
+
+Cliente --> (Mostrar)
+Cliente --> (Pedir)
+(Mostrar) <-- Camarero
+(Entrega) <-- Camarero
+"Entregar Comida" as (Entrega)
 @enduml
