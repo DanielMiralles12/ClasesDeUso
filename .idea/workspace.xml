@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d064c6-c451-46cd-9047-61656b9571f4" name="Changes" comment="Creando proyecto UML" />
+    <list default="true" id="08d064c6-c451-46cd-9047-61656b9571f4" name="Changes" comment="Creacion primer caso de uso">
+      <change beforePath="$PROJECT_DIR$/src/ClasesDeUso.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesDeUso.puml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683033395815</updated>
-      <workItem from="1683033397994" duration="656000" />
+      <workItem from="1683033397994" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="Creando proyecto UML">
       <created>1683033994987</created>
@@ -65,7 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683033994987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creacion primer actor">
+      <created>1683034181197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683034181197</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creacion primer caso de uso">
+      <created>1683034318633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683034318633</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creando proyecto UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando proyecto UML" />
+    <MESSAGE value="Creacion primer actor" />
+    <MESSAGE value="Creacion primer caso de uso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion primer caso de uso" />
   </component>
 </project>

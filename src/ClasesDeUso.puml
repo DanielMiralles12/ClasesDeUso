@@ -1,4 +1,4 @@
 @startuml
-
+:Cliente: --> (Use)
 "Mostrar Menu" as (Use)
 @enduml
