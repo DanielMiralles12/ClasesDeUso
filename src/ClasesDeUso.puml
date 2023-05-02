@@ -1,9 +1,18 @@
 @startuml
 left to right direction
-"Pagar" as (pagar)
-"Pagar con tarjeta" as (tarjeta)
-"Pagar en efectivo" as (efectivo)
+:Cliente:
 
-(tarjeta) --> (pagar)
-(efectivo) --> (pagar)
+"Meter dinero" as (meter)
+"Pedir azucar" as (azucar)
+"Pedir producto" as (producto)
+"Cancelar" as (cancelar)
+"Devolver dinero" as (devolver)
+
+Cliente --> (meter)
+Cliente --> (azucar)
+Cliente --> (producto)
+Cliente --> (cancelar)
+
+(producto) .. (devolver) : <<include>>
+(cancelar) .. (devolver) : <<include>>
 @enduml

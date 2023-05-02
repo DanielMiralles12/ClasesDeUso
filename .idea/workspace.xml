@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d064c6-c451-46cd-9047-61656b9571f4" name="Changes" comment="Creacion primer sistema (Relacion cliente restaurante)">
+    <list default="true" id="08d064c6-c451-46cd-9047-61656b9571f4" name="Changes" comment="Creacion primera Generalizacion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ClasesDeUso.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesDeUso.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683033395815</updated>
-      <workItem from="1683033397994" duration="1911000" />
+      <workItem from="1683033397994" duration="2734000" />
     </task>
     <task id="LOCAL-00001" summary="Creando proyecto UML">
       <created>1683033994987</created>
@@ -95,7 +96,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683035079728</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creacion primera inclusion">
+      <created>1683035356014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683035356014</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creacion primera extension">
+      <created>1683035491265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683035491265</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creacion primera Generalizacion">
+      <created>1683035770934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683035770934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +157,9 @@
     <MESSAGE value="Creacion primer caso de uso" />
     <MESSAGE value="Primer asociación" />
     <MESSAGE value="Creacion primer sistema (Relacion cliente restaurante)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion primer sistema (Relacion cliente restaurante)" />
+    <MESSAGE value="Creacion primera inclusion" />
+    <MESSAGE value="Creacion primera extension" />
+    <MESSAGE value="Creacion primera Generalizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion primera Generalizacion" />
   </component>
 </project>
