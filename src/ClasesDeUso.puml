@@ -1,12 +1,22 @@
 @startuml
 left to right direction
-:Ciudadano:
-:CiudadanoExtranjero:
 
-Ciudadano --> (Registrar entrada)
-CiudadanoExtranjero --> Ciudadano
-CiudadanoExtranjero --> (Tomar huellas)
-(Registrar entrada) .. (Tomar huellas) : <<extend>>
+skinparam usecase {
+BackgroundColor DarkSeaGreen
+BorderColor DarkSlateGray
+
+}
 
 
+(+ solicitud hecha) << Sacar dinero>>
+(Retener tarjeta) as (Use)
+
+Rectangle Description{
+(Hsitoria sospechosa) << Condidicion >>
+(Punto de extension: ) << solicitud hecha >>
+
+}
+
+(Use) .. (+ solicitud hecha) : <<Extend>>
+"Description" .. (+ solicitud hecha)
 @enduml

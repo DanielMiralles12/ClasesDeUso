@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d064c6-c451-46cd-9047-61656b9571f4" name="Changes" comment="Ejemplo Tienda de internet" />
+    <list default="true" id="08d064c6-c451-46cd-9047-61656b9571f4" name="Changes" comment="Ejemplo frontera">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClasesDeUso.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesDeUso.puml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683033395815</updated>
-      <workItem from="1683033397994" duration="3476000" />
+      <workItem from="1683033397994" duration="4558000" />
     </task>
     <task id="LOCAL-00001" summary="Creando proyecto UML">
       <created>1683033994987</created>
@@ -128,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683036867420</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ejemplo usuarios y administradores">
+      <created>1683037033081</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683037033081</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ejemplo frontera">
+      <created>1683037204760</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683037204760</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +190,8 @@
     <MESSAGE value="Creacion primera Generalizacion" />
     <MESSAGE value="Ejemplo maquina cafe" />
     <MESSAGE value="Ejemplo Tienda de internet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo Tienda de internet" />
+    <MESSAGE value="Ejemplo usuarios y administradores" />
+    <MESSAGE value="Ejemplo frontera" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo frontera" />
   </component>
 </project>
