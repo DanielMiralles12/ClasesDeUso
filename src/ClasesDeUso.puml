@@ -2,17 +2,13 @@
 left to right direction
 :Cliente:
 
-"Meter dinero" as (meter)
-"Pedir azucar" as (azucar)
-"Pedir producto" as (producto)
-"Cancelar" as (cancelar)
-"Devolver dinero" as (devolver)
+Cliente --> (Identificarse)
+Cliente --> (Pagar)
+Cliente --> (Eleir mensajero)
+Cliente --> (Confirmar)
 
-Cliente --> (meter)
-Cliente --> (azucar)
-Cliente --> (producto)
-Cliente --> (cancelar)
+(Identificarse) .. (Registrarse) : <<Extend>>
 
-(producto) .. (devolver) : <<include>>
-(cancelar) .. (devolver) : <<include>>
+(Pagar con transferencia) .. (Pagar)
+(Pagar con tarjeta) .. (Pagar)
 @enduml
